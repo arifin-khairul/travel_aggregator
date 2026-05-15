@@ -32,28 +32,11 @@ The dataset covers flights booked across three OTA services (GOIBIBO, YATRA, MMT
 
 ---
 
-## Charts
-
-![Booking by Day of Week](q3_booking_by_day_pie.png)
-![Correlation Heatmap](q7_correlation_heatmap.png)
-![Quarterly Device Trends](q9_quarterly_device_trends.png)
-![oBSR by Month](q10_obsr_by_month.png)
-![oBSR by Day of Week](q10_obsr_by_day.png)
-![oBSR Time Series](q10_obsr_time_series.png)
-
----
-
 ## How to Run
 
 ```bash
 pip install -r requirements.txt
 jupyter notebook travel_aggregator_analysis.ipynb
-```
-
-Or run all analysis and regenerate charts as a script:
-
-```bash
-python run_analysis.py
 ```
 
 ---
